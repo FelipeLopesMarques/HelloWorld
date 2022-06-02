@@ -12,5 +12,14 @@ public class HelloController {
 	public String helloWorld() {
 		return "Hello Turma 53!";
 	}
-
+	
+	public String bsm() {
+		return "<b>BSM Generation:</b> <br /> Habilidades:<br /> -> "
+				+ "Atenção aos Detalhes<br />-> Trabalho em equipe<br /> -> Proativade<br /> -> "
+				+ "Comunicação<br /><br /> Mentalidades:<br />-> Orientação ao Futuro<br />-> "
+				+ "Resposabilidade Pessoal<br />-> Mentalidade de Crescimento<br />-> Persistência";
+	}
+	public String objetivo() {
+		return "<b>Meus Objetivos:</b> <br /> Compreender e aplicar os conceitos de MySql e Spring Boot.";
+	}
 }
